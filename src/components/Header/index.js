@@ -2,9 +2,11 @@ import './header.css'
 
 import React from 'react'
 
+const linkBotaoheader = 'https://www.instagram.com/beatrizrluciano?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==';
+
 const Header = () => {
   return (
-    <section className='header'> 
+    <header className='header'> 
         <img 
           src='/imagens/Header_img.png'
           alt='Imagem de uma sala confotável'
@@ -17,7 +19,7 @@ const Header = () => {
             lorem Ipsum fromavailable, majority.
           </p>
           <a className='header__botao'
-            href='https://www.instagram.com/beatrizrluciano?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' 
+            href={linkBotaoheader} 
             target='new'
           >
             Get Started
@@ -28,7 +30,7 @@ const Header = () => {
           </a>
         </div>
         
-    </section>
+    </header>
     
   );
 };
