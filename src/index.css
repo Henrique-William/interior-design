@@ -1,9 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Jost', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+  --fonte-principal: 'Jost';
+  --fonte-secundaria: "DM Serif Display", serif;
+  --azul-escuro: #292F36;
+  --marrom: #CDA274;
+  --branco: #F4F0EC;
+  --cinza: #4D5053;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  font-size: 22px;
+  color: var(--azul-escuro);
+  margin: 0;
   margin: 0 19vw;
 }
 

@@ -1,0 +1,43 @@
+.header {
+    position: 'relative';
+}
+
+.header__img {
+    width: 100%;
+    height: 'auto';
+}
+
+.header__texto {
+    position: absolute;
+    width: 22%;
+    top: 35%;
+    margin-left: 64px;
+}
+
+.header__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 65px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.header__subtitulo {
+    font-size: 22px;
+    color: var(--cinza);
+}
+
+.header__botao {
+    display: flex;
+    width: 30%;
+    padding: 16px 48px;
+    background-color: var(--azul-escuro);
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 18px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
