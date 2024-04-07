@@ -28,8 +28,8 @@
 
 .header__botao {
     display: flex;
-    width: 30%;
     padding: 26px 49px;
+    width: fit-content;
     background-color: var(--azul-escuro);
     border-radius: 18px;
     text-decoration: none;
