@@ -1,17 +1,14 @@
 import './work.css'
 
-export const Work = (titulo, paragrafo, ) => {
+export const Work = (props) => {
+    console.log(props);
     return (
         <section className='work__passos'>
               <div className='work__texto'>
-                  <p className='work__titulo'>Project Plan</p>
-                  
-                  <p className='work__paragrafo'>
-                      There are many variations of the passages of lorem Ipsum from 
-                      available, majority.
-                  </p>
+                  <p className='work__titulo'>{props.titulo}</p>
+                  <p className='work__paragrafo'>{props.paragrafo}</p>
 
-                  <a href='' className='work__link'>
+                  <a href={props.link} target='new' className='work__link'>
                     Get Started
                     <img 
                       src='/imagens/Flecha.svg'
@@ -21,3 +18,4 @@ export const Work = (titulo, paragrafo, ) => {
         </section>    
     );
   }
+
