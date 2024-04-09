@@ -1,3 +1,4 @@
+import Botao from '../Botao';
 import './header.css'
 
 import React from 'react'
@@ -18,16 +19,9 @@ const Header = () => {
             There are many variations of the passages of
             lorem Ipsum fromavailable, majority.
           </p>
-          <a className='header__botao'
-            href={linkBotaoheader} 
-            target='new'
-          >
-            Get Started
-            <img 
-              src='/imagens/Flecha.svg'
-              alt='Seta de link'
+            <Botao 
+              link={linkBotaoheader}
             />
-          </a>
         </div>
         
     </header>

@@ -5,7 +5,6 @@ import Header from "../../components/Header";
 import { Work } from '../../components/Work';
 
 const link1 = 'https://www.youtube.com/';
-
 const texto = 'There are many variations of the passages of lorem Ipsum from available, majority.';
 
 export const Home = () => {

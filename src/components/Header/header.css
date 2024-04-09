@@ -26,18 +26,5 @@
     color: var(--cinza);
 }
 
-.header__botao {
-    display: flex;
-    padding: 26px 49px;
-    width: fit-content;
-    background-color: var(--azul-escuro);
-    border-radius: 18px;
-    text-decoration: none;
-    color: var(--branco);
-    font-size: 18px;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-}
 
 
