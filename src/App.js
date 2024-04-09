@@ -1,13 +1,11 @@
 import './App.css';
-import Header from './components/Header';
-import Menu from './components/Menu';
+import { Home } from './screens/Home';
 
 function App() {
   return (
-    <header>
-      <Menu />
-      <Header />
-    </header>
+    <div>
+      <Home/>
+    </div>      
   );
 }
 

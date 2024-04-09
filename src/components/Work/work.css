@@ -1,0 +1,33 @@
+.work__passos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 200px 32px;
+}
+
+.work__texto {
+    width: auto;
+    text-align: center;
+}
+
+.work__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+}
+
+.work__paragrafo {
+    font-size: 22px;
+    margin: 20px 0 52px 0;
+}
+
+.work__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--azul-escuro);
+}
+
