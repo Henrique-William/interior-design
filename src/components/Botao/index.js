@@ -7,7 +7,7 @@ const Botao = (props) => {
             href={props.link} 
             target='new'
           >
-            Get Started
+            {props.conteudo}
             <img 
               src='/imagens/Flecha.svg'
               alt='Seta de link'

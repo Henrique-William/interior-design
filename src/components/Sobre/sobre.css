@@ -1,0 +1,46 @@
+.work__passos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre__texto_container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.sobre__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.sobre__titulo {
+    font-size: 50px;
+    font-family: var(--fonte-secundaria);
+}
+
+.sobre__card_telefone {
+    display: flex;
+    height: 93px;
+    align-items: center;
+    gap: 15px;
+}
+
+.sobre__fone, .sobre__fone_sub {
+    margin: 0px;
+}
+
+.sobre__fone {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sobre__botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+

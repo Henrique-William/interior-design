@@ -20,6 +20,7 @@ const Header = () => {
             lorem Ipsum fromavailable, majority.
           </p>
             <Botao 
+              conteudo='Get Started'
               link={linkBotaoheader}
             />
         </div>
