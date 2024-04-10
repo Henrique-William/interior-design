@@ -1,6 +1,10 @@
 .work {
     display: flex;
+    margin: 0;
 }
 
+.comentarios {
+    margin-top: 200px;
+}
 
 

@@ -4,6 +4,7 @@ import Menu from "../../components/Menu";
 import Header from "../../components/Header";
 import { Work } from '../../components/Work';
 import { Sobre } from '../../components/Sobre';
+import { Comentarios } from '../../components/Comentarios';
 
 const link1 = 'https://www.youtube.com/';
 const texto = 'There are many variations of the passages of lorem Ipsum from available, majority.';
@@ -11,7 +12,7 @@ const texto = 'There are many variations of the passages of lorem Ipsum from ava
 export const Home = () => {
     return (
       <div>
-        <header>
+        <header className='header'>
           <Menu />
           <Header />
         </header>
@@ -34,13 +35,14 @@ export const Home = () => {
           />
         </section>
         
-        <section>
+        <section className='sobre'>
           <Sobre />
         </section>
-        
 
-        
-        
+        <section className='comentarios'>
+          <Comentarios />
+        </section>
+
       </div>      
     );
   }

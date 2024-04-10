@@ -30,7 +30,7 @@ export const Sobre = () => {
                         </div>
                     </div>
                     <Botao 
-                        conteudo='get free Estimate'
+                        conteudo='Get Free Estimate'
                         link={linkBotao}
                     />
                 </div>

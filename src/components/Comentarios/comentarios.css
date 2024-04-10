@@ -1,0 +1,23 @@
+.comentarios__container {
+    background-color: #F4F0EC;
+    width: 100%;
+    height: auto;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 88px 24px;
+    gap: 38px;
+}
+
+.comentarios__titulo {
+    font-size: 50;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    text-align: center;
+}
+
+.card__pessoas {
+    display: flex;
+    justify-content: space-between;
+}

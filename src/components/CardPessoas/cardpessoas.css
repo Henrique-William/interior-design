@@ -1,0 +1,42 @@
+
+.card_pessoas__container {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 290px;
+    padding: 60px 37px 0px 37px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card__perfil {
+    display: flex;
+    height: 77px;
+    gap: 23px;
+}
+
+.card__perfil__texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__nome {
+    margin: 0px;
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+    color: #4D5053;
+    width: 100%;
+}
+
+.card__localidade {
+    margin: 0px;
+    font-size: 18px;
+    color: #4D5053;
+}
+
+.card__comentario {
+    margin: 0px;
+    font-size: 22px;
+    width: 100%;
+}

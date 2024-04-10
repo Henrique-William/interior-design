@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 200px 32px;
+    
 }
 
 .work__texto {
     width: auto;
     text-align: center;
+    margin: 200px 32px;
 }
 
 .work__titulo {
