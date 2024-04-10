@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import { Work } from '../../components/Work';
 import { Sobre } from '../../components/Sobre';
 import { Comentarios } from '../../components/Comentarios';
+import { LogoCliente } from '../../components/LogoCliente';
 
 const link1 = 'https://www.youtube.com/';
 const texto = 'There are many variations of the passages of lorem Ipsum from available, majority.';
@@ -41,6 +42,10 @@ export const Home = () => {
 
         <section className='comentarios'>
           <Comentarios />
+        </section>
+        
+        <section className='logo_cliente'>
+          <LogoCliente />
         </section>
 
       </div>      
