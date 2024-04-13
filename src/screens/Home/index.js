@@ -6,6 +6,7 @@ import { Work } from '../../components/Work';
 import { Sobre } from '../../components/Sobre';
 import { Comentarios } from '../../components/Comentarios';
 import { LogoCliente } from '../../components/LogoCliente';
+import { Projeto } from '../../components/Projeto/index,';
 
 const link1 = 'https://www.youtube.com/';
 const texto = 'There are many variations of the passages of lorem Ipsum from available, majority.';
@@ -35,17 +36,20 @@ export const Home = () => {
             link={link1}
           />
         </section>
-        
         <section className='sobre'>
           <Sobre />
         </section>
-
         <section className='comentarios'>
           <Comentarios />
         </section>
-        
         <section className='logo_cliente'>
           <LogoCliente />
+        </section>
+        <section className='Projeto'>
+          <Projeto />
+        </section>
+        <section className=''>
+
         </section>
 
       </div>      

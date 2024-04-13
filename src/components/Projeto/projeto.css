@@ -1,0 +1,33 @@
+.projeto {
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+}
+
+.projeto__texto {
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projeto__titulo {
+    font-size: 50px;
+    font-family: var(--fonte-secundaria);
+    margin: 0px;
+}
+
+.projeto__subtitulo {
+    margin: 0;
+}
+
+.projeto__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.projeto__cards_fileira {
+    display: flex;
+    justify-content: space-between;
+}

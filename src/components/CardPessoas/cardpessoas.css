@@ -1,8 +1,8 @@
 
 .card_pessoas__container {
     background-color: #FFFFFF;
-    width: 350px;
-    height: 290px;
+    width: 25%;
+    height: 280px; 
     padding: 60px 37px 0px 37px;
     border-radius: 30px;
     display: flex;

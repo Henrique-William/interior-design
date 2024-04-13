@@ -1,0 +1,25 @@
+.card {
+    width: 40%;
+    height: auto;
+}
+.card__img {
+    width: 100%;
+}
+
+.card__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+    margin: 0px;
+}
+
+.card__subtitulo {
+    margin: 0px;
+    font-size: 22px;
+    color: #4D5053;
+}
+
+.card__texto_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
